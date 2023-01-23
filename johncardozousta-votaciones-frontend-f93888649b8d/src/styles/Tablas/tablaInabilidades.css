@@ -1,0 +1,19 @@
+.tablaInabilidades {
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+td {
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.par {
+  background-color: #fff;
+}
+
+.impar {
+  background-color: #e5e6e7;
+}

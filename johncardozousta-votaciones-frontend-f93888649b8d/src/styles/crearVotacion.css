@@ -1,0 +1,27 @@
+.form {
+  place-content: center;
+  text-align: center;
+  background-color: #fff;
+  width: 60%;
+  border-radius: 15px;
+  margin-top: 3%;
+  margin-bottom: 6%;
+  margin-left: 20%;
+  padding: 5%;
+  padding-top: 2%;
+}
+
+select {
+  vertical-align: middle;
+  width: 25rem;
+}
+
+.form > h2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form > button {
+  margin-right: 2rem;
+}

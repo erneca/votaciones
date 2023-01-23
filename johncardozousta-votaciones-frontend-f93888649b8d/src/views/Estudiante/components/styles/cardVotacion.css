@@ -1,0 +1,48 @@
+.card {
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  box-shadow: 2px 2px 5px #c4c4c4;
+  width: 50%;
+  padding: 1%;
+  place-content: center;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 25%;
+}
+
+h2 {
+  color: #000;
+}
+
+.card > div {
+  border: 1px solid black;
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+
+.info {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  grid-column: 2;
+  margin: 5%;
+}
+
+.info > p {
+  padding-bottom: 0.5rem;
+}
+
+.name {
+  grid-column: 1;
+  color: #fff;
+  background: #00468b;
+  place-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.name > h2 {
+  color: #fff;
+}

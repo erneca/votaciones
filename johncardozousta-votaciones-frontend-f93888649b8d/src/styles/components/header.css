@@ -1,0 +1,44 @@
+#contenedor {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 10vw auto;
+}
+
+#logo {
+  background-color: #00468b;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-row: 1 / 1;
+  padding: 0.5rem;
+  min-width: 100px;
+}
+
+#logo > img {
+  height: 2rem;
+}
+
+#logo > h2 {
+  margin-left: 0.4rem;
+}
+
+#opciones {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  grid-row: 1 / 2;
+  color: #676a6c;
+  padding-right: 1rem;
+}
+
+#opciones > button {
+  padding-left: 2rem;
+  background-color: #fff;
+  color: #676a6c;
+  font-size: 1rem;
+}
+
+#opciones > button > i {
+  padding-right: 0.5rem;
+}

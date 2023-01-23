@@ -1,0 +1,6 @@
+.botones {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.2rem;
+  justify-content: space-around;
+}

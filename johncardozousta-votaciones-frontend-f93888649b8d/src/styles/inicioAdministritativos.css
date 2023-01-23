@@ -1,0 +1,22 @@
+.headerAdministrativos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.headerAdministrativos > h2 {
+  width: 80%;
+  font-weight: 100;
+  border-bottom: solid black 1px;
+}
+
+.contentAdministrativos {
+  display: flex;
+  margin-bottom: 4rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

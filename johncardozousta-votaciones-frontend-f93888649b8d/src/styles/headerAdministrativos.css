@@ -1,0 +1,23 @@
+.headerAdministrativos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.headerAdministrativos > h2 {
+  width: 80%;
+  font-weight: 100;
+  border-bottom: solid black 1px;
+}
+
+#ver {
+  background-color: transparent;
+}
+
+#ver > i {
+  font-size: 2rem;
+  cursor: pointer;
+}

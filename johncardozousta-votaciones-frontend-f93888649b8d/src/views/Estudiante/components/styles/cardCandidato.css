@@ -1,0 +1,36 @@
+.card {
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  box-shadow: 2px 2px 5px #c4c4c4;
+  display: grid;
+  grid-template-areas: "foto nombre" "foto propuesta";
+  grid-template-columns: 30% 70%;
+}
+
+.card:hover {
+  background-color: #a6c4fd;
+  cursor: pointer;
+}
+
+.card > #foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b3b3b1f;
+  padding: 0.5rem;
+  grid-area: foto;
+}
+
+.card > #foto > img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 5rem;
+}
+
+#nombre {
+  grid-area: nombre;
+}
+
+#propuesta {
+  grid-area: propuesta;
+}

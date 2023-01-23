@@ -1,0 +1,37 @@
+.navVerVotacion {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.navVerVotacion > p,
+.navVerVotacion > b {
+  border-right: solid black 1px;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  cursor: pointer;
+}
+
+.navVerVotacion > p:last-child,
+.navVerVotacion > b:last-child {
+  border-right: none;
+}
+
+.selected {
+  color: #00468b;
+}
+
+b {
+  color: #676a6c;
+}
+
+.contentSecretaria {
+  place-content: center;
+  background-color: #fff;
+  width: 80%;
+  border-top: solid black 1px;
+  margin-top: 0.5rem;
+  margin-bottom: 6%;
+  margin-left: 10%;
+  padding: 5%;
+}

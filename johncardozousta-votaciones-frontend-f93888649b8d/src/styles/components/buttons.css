@@ -1,0 +1,51 @@
+.enable {
+  color: #fff;
+  background-color: #00468b;
+}
+
+.enable:hover {
+  background-color: #113d69;
+}
+
+.disable {
+  color: #fff;
+  background-color: #676a6c;
+}
+
+.disable:hover {
+  background-color: #565858;
+}
+
+.button {
+  margin-right: 1rem;
+  height: 2.2rem;
+  cursor: pointer;
+}
+
+.buttonWidth100 {
+  width: 100%;
+}
+
+.buttonWidth70 {
+  width: 70%;
+}
+
+.buttonWidth50 {
+  width: 50%;
+}
+
+.buttonWidth40 {
+  width: 40%;
+}
+
+.buttonWidth30 {
+  width: 30%;
+}
+
+.buttonWidth20 {
+  width: 20%;
+}
+
+.buttonWidth15 {
+  width: 15%;
+}

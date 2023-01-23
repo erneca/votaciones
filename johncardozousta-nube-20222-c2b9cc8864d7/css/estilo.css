@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor {
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template: 50px auto 50px / 0.3fr 1fr;
+  grid-template-areas:
+    "menu header"
+    "menu contenido"
+    "footer footer";
+  gap: 10px;
+}
+.header {
+  background: #c2fdc2;
+  grid-area: header;
+}
+.menu {
+  background: #c2d6fd;
+  grid-area: menu;
+}
+.contenido {
+  background: #e4c2fd;
+  grid-area: contenido;
+}
+.footer {
+  background: #fdfbc2;
+  grid-area: footer;
+}

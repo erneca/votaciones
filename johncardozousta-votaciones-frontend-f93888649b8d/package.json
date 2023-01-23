@@ -1,0 +1,24 @@
+{
+  "name": "votaciones-frontend",
+  "version": "1.0.0",
+  "description": "En este proyecto se realizará toda la lógica y estilizado de las pantallas para\r el Software que se utilizará para el proceso de votaciones de la universidad\r Santo Tomás multicampus.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "jwt-decode": "^3.1.2",
+    "pinia": "^2.0.12",
+    "pinia-plugin-persistedstate": "^1.5.1",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.4"
+  }
+}

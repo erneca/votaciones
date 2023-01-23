@@ -1,0 +1,32 @@
+.titleh1 {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 5px 10px 0px 8px;
+  color: #e6e6e6;
+}
+
+.titleh1Pequeño {
+  text-align: center;
+  font-weight: 600;
+  color: #6e7072;
+  margin: 5px 10px 0px 8px;
+}
+
+.titleh2 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: inline-block;
+  margin: 5px 8px 10px 8px;
+  color: #6e7072;
+}
+
+.titleh3 {
+  font-size: 1rem;
+  font-weight: 220;
+  display: inline-block;
+  margin: 5px 8px 10px 8px;
+  color: #6e7072;
+}
